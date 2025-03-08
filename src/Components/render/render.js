@@ -1,8 +1,8 @@
 'use client';
-import Banner from './banner';
-import Footer from './footer';
+import Banner from '../common/banner';
+import Footer from '../common/footer';
 import Text_render from './text_render';
-import Header from './header';
+import Header from '../common/header';
 
 export default function Render() {
   return (

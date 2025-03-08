@@ -1,0 +1,25 @@
+/* imagem centrar */
+.hero {
+    height: 60vh;
+    background: url('/fundo.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+  
+    .hero-content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 10px;
+  
+      h1 {
+        font-size: 48px;
+        margin-bottom: 15px;
+      }
+  
+      p {
+        font-size: 18px;
+      }
+    }
+  }

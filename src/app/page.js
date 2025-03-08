@@ -1,4 +1,4 @@
-import Render from "../Components/render";
+import Render from "../Components/render/render";
 
 export default function Home() {
   return (
